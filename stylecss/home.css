@@ -1,0 +1,100 @@
+
+ .overlay{
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s;
+ }
+ .overlay-content {
+    color: wheat;
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  /* @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+      
+    }
+  } */
+
+#logo{
+   text-align: center;
+   color: white;
+}
+#chude{
+    color:white;
+    font-size: 44px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px white;
+    text-align: center;
+    border:  solid lightskyblue;
+    width: 25%;
+}
+footer{
+    background-color: rgb(26, 25, 25);
+    color: white;
+    padding: 1px 0px 0px 0px;
+}
+#camon{
+    font-size: 35px;
+    color: rgb(236, 29, 150);
+}
+#btton{
+    background-color: lightskyblue;
+    border: 1px solid black ;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px 5px 5px 10px;
+    width: 20px;
+    font-size: 30px;
+}
+pre{
+    margin: 20px 0px 10px 300px;
+    font-size: 30px;
+}
+section{
+    font-size: 30px;
+}
+canvas{
+    background-color: #312;
+}
+#myDIV {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    color: white;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {box-shadow: 10px 20px 30px blue;}
+  }
